@@ -38,7 +38,7 @@ class bookshow(scrapy.Spider):
 
         for ii in range(1, 20):
             files.write(ii)
-
+        print 'hah'
         files.flush()
         files.close()
         # for each in books:
